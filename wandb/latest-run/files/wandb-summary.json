@@ -1,0 +1,1 @@
+{"dataset_args": {"lower": true, "stem": false, "num_classes": 40}, "_timestamp": 1655584614, "_runtime": 2782, "_step": 0, "_wandb": {"runtime": 4}}
