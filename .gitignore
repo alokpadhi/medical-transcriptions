@@ -2,4 +2,4 @@
 *.zip
 
 # Vscode setting folder
-.vscode/
+.vscode/*
