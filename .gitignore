@@ -1,5 +1,6 @@
-#Zip files
-*.zip
+# VSCode
+.vscode/
+.idea
 
-# Vscode setting folder
-.vscode/*
+# zip files
+*.zip
