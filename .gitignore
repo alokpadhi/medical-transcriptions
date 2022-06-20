@@ -4,3 +4,9 @@
 
 # zip files
 *.zip
+
+# W&B
+wandb-debug.log
+wandb/*
+!wandb/settings
+**/notebooks/modeling/wandb/*
