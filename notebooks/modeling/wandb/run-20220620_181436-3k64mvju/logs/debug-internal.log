@@ -1,0 +1,72 @@
+2022-06-20 18:14:41,920 INFO    MainThread:753 [internal.py:wandb_internal():90] W&B internal server running at pid: 753, started at: 2022-06-20 18:14:41.917070
+2022-06-20 18:14:41,922 INFO    WriterThread:753 [datastore.py:open_for_write():75] open: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/run-3k64mvju.wandb
+2022-06-20 18:14:41,924 DEBUG   SenderThread:753 [sender.py:send():235] send: header
+2022-06-20 18:14:41,924 DEBUG   SenderThread:753 [sender.py:send():235] send: run
+2022-06-20 18:14:42,028 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: check_version
+2022-06-20 18:14:42,150 INFO    SenderThread:753 [dir_watcher.py:__init__():205] watching files in: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/files
+2022-06-20 18:14:42,150 INFO    SenderThread:753 [sender.py:_start_run_threads():812] run started: 3k64mvju with start time 1655748881
+2022-06-20 18:14:42,150 DEBUG   SenderThread:753 [sender.py:send():235] send: summary
+2022-06-20 18:14:42,151 INFO    SenderThread:753 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-20 18:14:42,151 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: check_version
+2022-06-20 18:14:42,186 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: run_start
+2022-06-20 18:14:42,190 DEBUG   HandlerThread:753 [meta.py:__init__():35] meta init
+2022-06-20 18:14:42,190 DEBUG   HandlerThread:753 [meta.py:__init__():49] meta init done
+2022-06-20 18:14:42,190 DEBUG   HandlerThread:753 [meta.py:probe():209] probe
+2022-06-20 18:14:42,197 DEBUG   HandlerThread:753 [meta.py:_setup_git():199] setup git
+2022-06-20 18:14:42,213 DEBUG   HandlerThread:753 [meta.py:_setup_git():206] setup git done
+2022-06-20 18:14:42,214 DEBUG   HandlerThread:753 [meta.py:_save_pip():53] save pip
+2022-06-20 18:14:42,240 DEBUG   HandlerThread:753 [meta.py:_save_pip():67] save pip done
+2022-06-20 18:14:42,240 DEBUG   HandlerThread:753 [meta.py:_save_conda():74] save conda
+2022-06-20 18:14:42,812 DEBUG   HandlerThread:753 [meta.py:_save_conda():84] save conda done
+2022-06-20 18:14:42,813 DEBUG   HandlerThread:753 [meta.py:probe():247] probe done
+2022-06-20 18:14:42,894 DEBUG   SenderThread:753 [sender.py:send():235] send: files
+2022-06-20 18:14:42,894 INFO    SenderThread:753 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-06-20 18:14:42,902 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:14:42,902 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:14:42,969 DEBUG   SenderThread:753 [sender.py:send():235] send: telemetry
+2022-06-20 18:14:43,093 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: log_artifact
+2022-06-20 18:14:43,094 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: log_artifact
+2022-06-20 18:14:43,097 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: pause
+2022-06-20 18:14:43,098 INFO    HandlerThread:753 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-20 18:14:43,153 INFO    Thread-7  :753 [dir_watcher.py:_on_file_created():256] file/dir created: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/files/wandb-metadata.json
+2022-06-20 18:14:43,154 INFO    Thread-7  :753 [dir_watcher.py:_on_file_created():256] file/dir created: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/files/requirements.txt
+2022-06-20 18:14:43,154 INFO    Thread-7  :753 [dir_watcher.py:_on_file_created():256] file/dir created: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/files/wandb-summary.json
+2022-06-20 18:14:43,154 INFO    Thread-7  :753 [dir_watcher.py:_on_file_created():256] file/dir created: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/files/output.log
+2022-06-20 18:14:43,155 INFO    Thread-7  :753 [dir_watcher.py:_on_file_created():256] file/dir created: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/files/conda-environment.yaml
+2022-06-20 18:14:43,294 INFO    Thread-11 :753 [upload_job.py:push():132] Uploaded file /tmp/tmpzdye7w5xwandb/3qcb0gx6-wandb-metadata.json
+2022-06-20 18:14:43,844 INFO    Thread-13 :753 [upload_job.py:push():90] Uploaded file /root/.cache/wandb/artifacts/obj/md5/ae/15c5a19b44bdc195a6ab6ce00162b2
+2022-06-20 18:14:43,859 INFO    Thread-15 :753 [upload_job.py:push():90] Uploaded file /root/.cache/wandb/artifacts/obj/md5/08/dd28ec9eef55fb33081fb2c0442b7f
+2022-06-20 18:14:45,152 INFO    Thread-7  :753 [dir_watcher.py:_on_file_modified():269] file/dir modified: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/files/output.log
+2022-06-20 18:14:45,581 INFO    Thread-14 :753 [upload_job.py:push():90] Uploaded file /root/.cache/wandb/artifacts/obj/md5/08/21ce17163a944648ff6ba2dea182ed
+2022-06-20 18:14:46,186 INFO    SenderThread:753 [sender.py:send_request_log_artifact():1006] logged artifact Dataset_V1_0 - {'id': 'QXJ0aWZhY3Q6MTQ1OTA2NTc4', 'digest': '0f25cd92a6e85a6eca015ba558781e76', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIyODA0MjE4', 'latestArtifact': None}, 'version': 'latest'}
+2022-06-20 18:14:46,186 DEBUG   SenderThread:753 [sender.py:send():235] send: stats
+2022-06-20 18:14:57,971 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:14:57,971 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:15:12,229 INFO    Thread-7  :753 [dir_watcher.py:_on_file_modified():269] file/dir modified: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/files/config.yaml
+2022-06-20 18:15:13,036 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:15:13,036 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:15:13,230 INFO    Thread-7  :753 [dir_watcher.py:_on_file_modified():269] file/dir modified: /notebooks/project/medical-transcriptions/notebooks/modeling/wandb/run-20220620_181436-3k64mvju/files/config.yaml
+2022-06-20 18:15:28,108 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:15:28,108 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:15:43,177 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:15:43,178 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:15:58,251 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:15:58,251 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:16:13,316 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:16:13,317 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:16:28,397 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:16:28,398 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:16:43,462 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:16:43,462 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:16:58,536 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:16:58,536 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:17:13,618 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:17:13,618 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:17:28,724 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:17:28,724 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:17:43,812 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:17:43,812 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:17:58,930 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:17:58,930 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:18:14,029 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:18:14,029 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
