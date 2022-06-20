@@ -80,3 +80,7 @@
 2022-06-20 18:19:18,929 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
 2022-06-20 18:19:33,994 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
 2022-06-20 18:19:33,994 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:19:49,063 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:19:49,063 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
+2022-06-20 18:20:04,134 DEBUG   HandlerThread:753 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-20 18:20:04,134 DEBUG   SenderThread:753 [sender.py:send_request():249] send_request: stop_status
