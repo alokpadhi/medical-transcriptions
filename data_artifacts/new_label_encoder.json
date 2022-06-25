@@ -1,0 +1,18 @@
+{
+    "class_to_index": {
+        "cardiovascular / pulmonary": 0,
+        "ent otolaryngology": 1,
+        "gastroenterology": 2,
+        "general medicine": 3,
+        "hematology oncology": 4,
+        "nephrology": 5,
+        "neurology": 6,
+        "neurosurgery": 7,
+        "obstetrics / gynecology": 8,
+        "ophthalmology": 9,
+        "orthopedic": 10,
+        "radiology": 11,
+        "surgery": 12,
+        "urology": 13
+    }
+}
