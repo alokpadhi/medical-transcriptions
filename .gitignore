@@ -10,3 +10,12 @@ wandb-debug.log
 wandb/*
 !wandb/settings
 /notebooks/modeling/wandb/
+/notebooks/wandb
+
+# embedding files
+/notebooks/modeling/embedding/
+
+# notebook checkpoints
+*/.ipynb_checkpoints/*
+/notebooks/modeling/.ipynb_checkpoints/*
+/notebooks/Data_Exploration/.ipynb_checkpoints/*
